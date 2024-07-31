@@ -1,5 +1,9 @@
 import {
     mobile,
+    machinelearning,
+    gamedev,
+    embedded,
+    fullstack,
     backend,
     creator,
     web,
@@ -9,6 +13,11 @@ import {
     css,
     reactjs,
     redux,
+    autocad,
+    cpp,
+    csharp,
+    mysql,
+    python,
     tailwind,
     nodejs,
     mongodb,
@@ -44,20 +53,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Machine Learning",
+      icon: machinelearning,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Fullstack Development",
+      icon: fullstack,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Embedded Systems",
+      icon: embedded,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Game Development",
+      icon: gamedev,
     },
   ];
   
@@ -83,8 +92,8 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "Tailwind CSS",
@@ -95,8 +104,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "MySQL",
+      icon: mysql,
     },
     {
       name: "Three JS",
@@ -107,12 +116,16 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "AutoCAD",
+      icon: autocad,
     },
   ];
   

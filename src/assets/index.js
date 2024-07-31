@@ -7,6 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import machinelearning from "./machinelearning.png";
+import fullstack from "./fullstack.png";
+import gamedev from "./gamedev.png";
+import embedded from "./embedded.png";
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,6 +25,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
+import autocad from "./tech/autocad.png";
+import cpp from "./tech/cpp.png";
+import csharp from "./tech/csharp.png";
+import mysql from "./tech/mysql.png";
+import python from "./tech/mysql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -36,6 +47,10 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  machinelearning,
+  gamedev,
+  embedded,
+  fullstack,
   backend,
   creator,
   mobile,
@@ -45,6 +60,11 @@ export {
   close,
   css,
   docker,
+  autocad,
+  cpp,
+  csharp,
+  mysql,
+  python,
   figma,
   git,
   html,
