@@ -33,20 +33,20 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+.green-gradient {
+  background: #008000;
+  background: linear-gradient(-90deg, #008000 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #008000 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
-.green-pink-gradient {
+.green-green-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #006400 1.9%, #9ced9c 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #006400 1.9%, #9ced9c 97.5%);
 }
 
 .orange-text-gradient {
@@ -200,5 +200,30 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #FFEBCD; /* cursor effect */
+  animation: 
+    typing 4s steps(40, end) 1s 1 normal both,
+    blink 0.75s step-start infinite 1s,
+    disappear 0s linear 5s forwards;
+}
+
+@keyframes disappear {
+  to {
+    border-right: 3px solid transparent;
   }
 }
