@@ -211,49 +211,49 @@ import {
         },
       ],
       image: synthdisplay,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/zahrabytes/Frontend-Synth/",
     },
     {
-      name: "Job IT",
+      name: "Stellar Scholars",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based gamified educational platform about the solar system, won 4 awards at TAMU X HACK. Uses Pixi.js to create rocket exploration of 8 planets, as well as an educational AI chatbot.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pixijs",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "cloudflare",
           color: "pink-text-gradient",
         },
       ],
       image: stellarscholarsdisplay,
-      source_code_link: "https://github.com/zahrabytes/Frontend-Synth",
+      source_code_link: "https://github.com/brohudev/stellar-scholar/",
     },
     {
-      name: "Trip Guide",
+      name: "Peak Oil Rate Prediction Model",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Peak oil rate prediction model using Python and machine learning, won an award at Rice Datathon. Uses data imputation, resulting in a Root Mean Squared Error of 31, indicating strong accuracy.",
       tags: [
         {
-          name: "nextjs",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "starknet",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "pandas",
           color: "pink-text-gradient",
         },
       ],
       image: ricedisplay,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/zahrabytes/Rice-Datathon-2024",
     },
   ];
   
