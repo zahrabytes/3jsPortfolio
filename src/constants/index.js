@@ -167,11 +167,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "I've seen how hard Zahra works, and if she sets a goal, she'll always find a way to accomplish it. She's very adaptive and works well with whatever situation she's in. Also, she's a great friend and a wonderful person to have around.",
+      name: "John Bernard Cruz",
+      designation: "Project lead and close friend",
+      company: "University of Houston",
+      image: "https://media.licdn.com/dms/image/D5603AQHj0gnypUET_w/profile-displayphoto-shrink_800_800/0/1671701200490?e=1727913600&v=beta&t=MSnww4mX0CcLrIpYxiF8bsmlHIKo3-yXjLZiSV4uQuI",
     },
     {
       testimonial:
@@ -183,11 +183,11 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "During our internship, Zahra showed exceptional teamwork and problem-solving skills. Her dedication and eagerness to learn, along with her positive attitude, made her an outstanding colleague.",
+      name: "Mustafa Sahin",
+      designation: "Colleague",
+      company: "Baylor College of Medicine",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHrGNt8S3x1pw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680758529127?e=1727913600&v=beta&t=ESaIdanLe4LPVuTCNcy5rayNCN1bzr3n-wTAGoaYjvU",
     },
   ];
   
