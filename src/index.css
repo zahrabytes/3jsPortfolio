@@ -9,11 +9,6 @@
   src: url('/src/assets/Satoshi-Variable.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Tabular';
-  src: url('/src/assets/Tabular-Variable.ttf') format('truetype');
-}
-
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Pony Trueman Cassette player
+* source:	https://sketchfab.com/3d-models/pony-trueman-cassette-player-6b24fefa052742f88f842f19e17f6cb1
+* author:	TwilightFox (https://sketchfab.com/twilightfox)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
