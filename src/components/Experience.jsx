@@ -42,7 +42,7 @@ const Experience = () => {
     <motion.div
     variants={textVariant()}>
       <p className={`${styles.sectionSubText} text-[#FFEBCD]`}>What I have done so far</p>
-      <h2 className={`${styles.sectionHeadText} text-[#FFEBCD]`}>Work Experience.</h2>
+      <h2 className={`${styles.sectionHeadText} text-[#FFEBCD]`}>Experience.</h2>
     </motion.div>
     <div className="mt-20 flex flex-col">
       <VerticalTimeline lineColor="#008000">
