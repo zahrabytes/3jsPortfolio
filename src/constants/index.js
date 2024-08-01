@@ -31,6 +31,9 @@ import {
     tesla,
     shopify,
     carrent,
+    synthdisplay,
+    stellarscholarsdisplay,
+    ricedisplay,
     jobit,
     tripguide,
     threejs,
@@ -102,10 +105,6 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
     },
     {
       name: "Three JS",
@@ -194,24 +193,24 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Synth",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, play, save, and post songs and albums. Contains different user roles such as artist, listener, and admin.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mysql",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "googlestorageapi",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: synthdisplay,
       source_code_link: "https://github.com/",
     },
     {
@@ -232,8 +231,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: stellarscholarsdisplay,
+      source_code_link: "https://github.com/zahrabytes/Frontend-Synth",
     },
     {
       name: "Trip Guide",
@@ -253,7 +252,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: ricedisplay,
       source_code_link: "https://github.com/",
     },
   ];

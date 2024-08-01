@@ -26,6 +26,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import synthdisplay from "./synthDisplay.png";
+import stellarscholarsdisplay from './stellarscholarsDisplay.png';
+import ricedisplay from './riceDisplay.png'
+
 import autocad from "./tech/autocad.png";
 import cpp from "./tech/cpp.png";
 import csharp from "./tech/csharp.png";
@@ -48,6 +52,9 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   machinelearning,
+  synthdisplay,
+  stellarscholarsdisplay,
+  ricedisplay,
   gamedev,
   embedded,
   fullstack,
