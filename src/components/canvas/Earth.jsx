@@ -5,24 +5,16 @@ import { OrbitControls, useGLTF } from '@react-three/drei';
 import CanvasLoader from "../Loader";
 
 const Earth = ({isMobile}) => {
-  const earth = useGLTF('./typewriter/scene.gltf')
+  const earth = useGLTF('./gameboy/scene.gltf')
 
   return (
     <mesh>
-      <hemisphereLight intensity={20}
+      <hemisphereLight intensity={2}
       groundColor="black" />
-      <pointLight intensity={20}/>
+      <pointLight intensity={2}/>
       {/* Front light */}
-      <pointLight position={[0, 5, 10]} intensity={20} />
+      <pointLight position={[0, 5, 10]} intensity={2} />
       
-      {/* Left side light */}
-      <pointLight position={[-10, 5, 5]} intensity={20} />
-      
-      {/* Right side light */}
-      <pointLight position={[10, 5, 5]} intensity={20} />
-      
-      {/* Top light */}
-      <pointLight position={[0, 10, 0]} intensity={20} />
       <spotLight
       position={[-20,50,10]} 
       angle={0.12}
@@ -30,10 +22,10 @@ const Earth = ({isMobile}) => {
       intensity={10}/>
     <primitive
     object={earth.scene}
-    scale={isMobile ? 12 : 8}
+    scale={isMobile ? 30 : 30}
     
     position={[0, 0, 0]}
-    rotation={[1, -0.2, 0.1]}
+    rotation={[0, -0.2, 0.1]}
     />
     </mesh>
   )
@@ -72,7 +64,7 @@ const EarthCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}/>
-        <Earth/>
+        <Earth isMobile={isMobile}/>
       </Suspense>
 
     </Canvas>

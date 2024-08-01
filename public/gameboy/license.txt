@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nintendo GAME BOY
+* source:	https://sketchfab.com/3d-models/nintendo-game-boy-35ce8524d55449b5ab9d6a587a0038ed
+* author:	Alice Solo (https://sketchfab.com/user12350)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nintendo GAME BOY" (https://sketchfab.com/3d-models/nintendo-game-boy-35ce8524d55449b5ab9d6a587a0038ed) by Alice Solo (https://sketchfab.com/user12350) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
