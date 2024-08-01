@@ -161,7 +161,7 @@ import {
       name: "John Bernard Cruz",
       designation: "Project lead and close friend",
       company: "University of Houston",
-      image: "https://media.licdn.com/dms/image/D5603AQHj0gnypUET_w/profile-displayphoto-shrink_800_800/0/1671701200490?e=1727913600&v=beta&t=MSnww4mX0CcLrIpYxiF8bsmlHIKo3-yXjLZiSV4uQuI",
+      image: "src/assets/john.jpeg",
     },
     {
       testimonial:
@@ -169,7 +169,7 @@ import {
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: "src/assets/jean.jpeg",
     },
     {
       testimonial:
