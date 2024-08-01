@@ -1,10 +1,10 @@
 import React from 'react';
-import { Suspense } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, useGLTF } from '@react-three/drei';
 import CanvasLoader from "../Loader";
 
-const Earth = () => {
+const Earth = ({isMobile}) => {
   const earth = useGLTF('./typewriter/scene.gltf')
 
   return (
@@ -30,17 +30,32 @@ const Earth = () => {
       intensity={10}/>
     <primitive
     object={earth.scene}
-    scale={8}
-    position-y={0}
-    rotation-x={1}  // Tilt downwards
-    rotation-y={-0.2} // Rotate slightly to the left
-    rotation-z={0.1}  // Optional: adds a slight diagonal tilt
+    scale={isMobile ? 12 : 8}
+    
+    position={[0, 0, 0]}
+    rotation={[1, -0.2, 0.1]}
     />
     </mesh>
   )
 }
 
 const EarthCanvas = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 500px)');
+
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    }
+  }, [])
   return (
     <Canvas
     shadows
