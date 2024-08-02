@@ -158,18 +158,18 @@ import {
     {
       testimonial:
         "I've seen how hard Zahra works, and if she sets a goal, she'll always find a way to accomplish it. She's very adaptive and works well with whatever situation she's in. Also, she's a great friend and a wonderful person to have around.",
-      name: "John B. Cruz",
+      name: "John Cruz",
       designation: "Project lead and close friend",
       company: "University of Houston",
-      image: "src/assets/john.jpeg",
+      image: "https://i.postimg.cc/NG3G5CgL/john.jpg",
     },
     {
       testimonial:
-        "Blahblahblhalablahbalbalhablab",
+        "Blahbla hbl halabl ahbalbal hablab",
       name: "Jean Peanso",
       designation: "COO",
       company: "DEF Corp",
-      image: "src/assets/jean.jpeg",
+      image: "https://i.postimg.cc/85rQGDf4/jean.jpg",
     },
     {
       testimonial:
