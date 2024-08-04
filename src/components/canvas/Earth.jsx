@@ -25,7 +25,7 @@ const Earth = ({isMobile}) => {
     scale={isMobile ? 30 : 30}
     
     position={[0, 0, 0]}
-    rotation={[0, -0.2, 0.1]}
+    rotation={[0, 0, 0.1]}
     />
     </mesh>
   )
@@ -61,6 +61,7 @@ const EarthCanvas = () => {
       <Suspense fallback={<CanvasLoader/>}>
         <OrbitControls 
           autoRotate
+          autoRotateSpeed={-1.5} 
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}/>
