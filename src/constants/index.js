@@ -165,7 +165,7 @@ import {
     },
     {
       testimonial:
-        "Blahbla hbl halabl ahbalbal hablab",
+        "If dedication had a name, it would be Zahra. Her passion for coding is unmatched – you'll find her at her computer until 4 AM. Ask her what she’s doing and the answer will always be the same: 'I'm coding.' When she’s not coding, she’s sleeping, but she's dreaming in code. In all my years in computer science, I've never met anyone more committed to the craft. Zahra quite literally breathes code.",
       name: "Jean Peanso",
       designation: "COO",
       company: "DEF Corp",
