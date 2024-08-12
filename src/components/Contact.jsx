@@ -13,7 +13,6 @@ const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
     name: '',
-    email: '',
     message: '',
   })
   const [loading, setLoading] = useState(false);
@@ -33,7 +32,6 @@ const Contact = () => {
       {
         from_name: form.name,
         to_name: 'Zahra',
-        from_email: form.email,
         to_email: 'bukhaz99@gmail.com',
         message: form.message,
       },
@@ -43,7 +41,6 @@ const Contact = () => {
         alert('Thank you. I will get back to you ASAP.');
         setForm({
           name: '',
-          email: '',
           message: ''
         })
       }, (error => {
@@ -77,24 +74,13 @@ const Contact = () => {
                 />
             </label>
             <label className='flex flex-col'>
-              <span className='text-[#FFEBCD] font-medium mb-4'>Email</span>
-              <input
-                type="email"
-                name="email"
-                value={form.email}
-                onChange={handleChange}
-                placeholder="What's your email?"
-                className='bg-black py-4 px-6 placeholder:text-[#b3a58f] text-[#FFEBCD] rounded-lg outline-none border-none font-medium'
-                />
-            </label>
-            <label className='flex flex-col'>
               <span className='text-[#FFEBCD] font-medium mb-4'>Message</span>
               <textarea
-                rows="7"
+                rows="6"
                 name="message"
                 value={form.message}
                 onChange={handleChange}
-                placeholder="What's on your mind?"
+                placeholder="What's on your mind? Include a return email."
                 className='bg-black py-4 px-6 placeholder:text-[#b3a58f] text-[#FFEBCD] rounded-lg outline-none border-none font-medium'
                 />
             </label>
