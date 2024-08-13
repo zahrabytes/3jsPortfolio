@@ -11,7 +11,7 @@ const ServiceCard = ({index, name, icon}) => {
   return (
     <Tilt className="xs:w-[100px] w-[100px]">
       <motion.div
-        variants={fadeIn("right", "spring", 0.3 * index, 0.5)}
+        variants={textVariant()}
         className="w-full p-[1px] rounded-[20px] shadow-card">
           <div
           options={{
