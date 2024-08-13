@@ -10,6 +10,7 @@ const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement 
     contentStyle={{background:'#001418', color:'#fff'}}
     contentArrowStyle={{ borderRight:'7px solid #001418'}}
+    
     date={experience.date}
     dateClassName="text-[#FFEBCD]"
     iconStyle={{background: experience.iconBg}}
@@ -35,6 +36,7 @@ const ExperienceCard = ({ experience }) => (
         </ul>
       </div>
     </VerticalTimelineElement>
+    
 )
 const Experience = () => {
   return (
@@ -45,7 +47,7 @@ const Experience = () => {
       <h2 className={`${styles.sectionHeadText} text-[#FFEBCD]`}>Experience.</h2>
     </motion.div>
     <div className="mt-20 flex flex-col">
-      <VerticalTimeline lineColor="#008000">
+      <VerticalTimeline lineColor={"#008000"}>
         {experiences.map((experience, index) => (
           <ExperienceCard key={index} experience={experience}/>
         ))}

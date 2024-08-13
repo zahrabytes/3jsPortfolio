@@ -160,15 +160,15 @@ import {
         "I've seen how hard Zahra works, and if she sets a goal, she'll always find a way to accomplish it. She's very adaptive and works well with whatever situation she's in. Also, she's a great friend and a wonderful person to have around.",
       name: "John Cruz",
       designation: "Project lead and close friend",
-      company: "University of Houston",
+      company: "UH",
       image: "https://i.postimg.cc/NG3G5CgL/john.jpg",
     },
     {
       testimonial:
         "If dedication had a name, it would be Zahra. Her passion for coding is unmatched – you'll find her at her computer until 4 AM. Ask her what she’s doing and the answer will always be the same: 'I'm coding.' When she’s not coding, she’s sleeping, but she's dreaming in code. In all my years in computer science, I've never met anyone more committed to the craft. Zahra quite literally breathes code.",
       name: "Jean Peanso",
-      designation: "COO",
-      company: "DEF Corp",
+      designation: "Project partner and close friend",
+      company: "UH",
       image: "https://i.postimg.cc/85rQGDf4/jean.jpg",
     },
     {

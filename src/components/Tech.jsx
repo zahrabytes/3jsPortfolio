@@ -11,13 +11,13 @@ const ServiceCard = ({index, name, icon}) => {
   return (
     <Tilt className="xs:w-[100px] w-[100px]">
       <motion.div
-        variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+        variants={fadeIn("right", "spring", 0.3 * index, 0.5)}
         className="w-full p-[1px] rounded-[20px] shadow-card">
           <div
           options={{
             max:45,
             scale:1,
-            speed:2000
+            speed:1
           }}
           className="bg-[#FFEBCD] rounded-[20px] py-1 px-1 min-h-[100px] flex justify-evenly items-center flex-col">
             <img src ={icon} alt={name} className=' w-20 h-20 object-contain'/>
