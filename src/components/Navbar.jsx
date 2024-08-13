@@ -22,7 +22,7 @@ const Navbar = () => {
           }}
           >          
           <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
-          <p className='text-[#008000] text-[18px] font-bold cursor-pointer flex'>
+          <p className='text-[#009900] text-[18px] font-bold cursor-pointer flex'>
             Zahra&nbsp;
             <span className='sm:block hidden'>Bukhari | Portfolio</span>
             </p>
@@ -34,9 +34,9 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title
-                ? "text-[#008000]"
+                ? "text-[#009900]"
                 : "text-[#006400]"
-                } hover:text-[#008000] text-[18px] hover:font-medium cursor-pointer`}
+                } hover:text-[#009900] text-[18px] hover:font-medium cursor-pointer`}
                 onClick={() => setActive(Link.title)}
               >
                 <a href={`#${Link.id}`}>{Link.title}</a>
@@ -58,7 +58,7 @@ const Navbar = () => {
               key={Link.id}
               className={`${
                 active === Link.title
-                ? "text-[#008000] "
+                ? "text-[#009900] "
                 : "text-[#006400]"
                 } font-poppins font-medium cursor-pointer text-[16px]`}
                 onClick={() => 

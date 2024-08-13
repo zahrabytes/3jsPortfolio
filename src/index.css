@@ -31,11 +31,11 @@
 
 
 .green-gradient {
-  background: #008000;
-  background: linear-gradient(-90deg, #008000 0%, rgba(60, 51, 80, 0) 100%);
+  background: #009900;
+  background: linear-gradient(-90deg, #009900 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #008000 0%,
+    #009900 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
