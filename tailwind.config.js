@@ -13,7 +13,7 @@ module.exports = {
         "white-100": "#f3f3f3",
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 35px 120px -15px #012501",
       },
       screens: {
         xs: "450px",
@@ -21,7 +21,7 @@ module.exports = {
       backgroundImage: {
         "hero-pattern": "url('/src/assets/newbg.png')",
         "circuit-pattern":"url('/src/assets/circuitbg.png')"
-      },
+      },            
     },
   },
   plugins: [],

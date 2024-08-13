@@ -235,7 +235,7 @@ import {
     {
       name: "Peak Oil Rate Prediction Model",
       description:
-        "Peak oil rate prediction model using Python and machine learning, won an award at Rice Datathon. Uses data imputation, resulting in a Root Mean Squared Error of 31, indicating strong accuracy.",
+        "Peak oil rate prediction model using Python and machine learning, won an award at Rice Datathon.",
       tags: [
         {
           name: "python",

@@ -15,7 +15,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
       scale: 1,
       speed:450
     }}className="bg-[#001100] p-5 rounded-2xl
-      sm:w-[360px] w-full 001100">
+      sm:w-[360px] w-full 001100 shadow-card">
       <div className='relative w-full h-[230px]'>
         <img
         src={image}
@@ -66,7 +66,7 @@ const Works = () => {
           and manage projects effectively.
       </motion.p>
     </div>
-    <div className='mt-20 flex flex-wrap gap-7'>
+    <div className='mt-20 flex flex-wrap gap-7 '>
     {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

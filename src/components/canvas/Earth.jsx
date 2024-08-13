@@ -22,7 +22,7 @@ const Earth = ({isMobile}) => {
       intensity={10}/>
     <primitive
     object={earth.scene}
-    scale={isMobile ? 30 : 30}
+    scale={isMobile ? 40 : 30}
     
     position={[0, 0, 0]}
     rotation={[0, 0, 0.1]}
