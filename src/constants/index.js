@@ -198,7 +198,7 @@ import {
     {
       name: "Synth",
       description:
-        "Web-based platform that allows users to search, play, save, and post songs and albums. Contains different user roles such as artist, listener, and admin.",
+        "Web-based music library platform that allows users to search, play, save, and post songs and albums. Contains different user roles such as artist, listener, and admin.",
       tags: [
         {
           name: "react",
