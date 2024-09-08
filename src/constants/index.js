@@ -27,6 +27,7 @@ import {
   baylor,
   synth,
   uh,
+  nasa
   } from "../assets";
   
   export const navLinks = [
@@ -125,7 +126,25 @@ import {
   
   const experiences = [
     {
-      title: "Software Development Intern",
+      title: "Software Engineer Intern",
+      company_name: "NASA",
+      icon: nasa,
+      iconBg: "#E6DEDD",
+      date: "Sept 2024 - Present",
+      points: [
+      ],
+    },
+    {
+      title: "Database Teaching Assistant",
+      company_name: "University of Houston",
+      icon: uh,
+      iconBg: "#E6DEDD",
+      date: "Aug 2024 - Present",
+      points: [
+      ],
+    },
+    {
+      title: "Software Developer Intern",
       company_name: "Baylor College of Medicine",
       icon: baylor,
       iconBg: "#383E56",
@@ -142,7 +161,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Jan 2024 - May 2024",
       points: [
-        "Guided a class of 400 students with topics including process and memory management, and concurrency",
+        "Guided a class of 200 students with topics including process and memory management, and concurrency",
         "Critiqued 100s of student C++ program submissions, providing feedback to enhance efficiency.",
       ],
     },

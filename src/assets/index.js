@@ -31,6 +31,7 @@ import python from "./tech/mysql.png";
 import baylor from "./company/baylor.png";
 import synth from "./company/synth.jpg";
 import uh from "./company/uh.png";
+import nasa from "./company/nasa.jpg";
 
 
 export {
@@ -62,4 +63,5 @@ export {
   baylor,
   synth,
   uh,
+  nasa
 };
