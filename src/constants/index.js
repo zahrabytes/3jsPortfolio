@@ -201,7 +201,7 @@ import {
       name: "Mustafa Sahin",
       designation: "Colleague",
       company: "Baylor College of Medicine",
-      image: "https://media.licdn.com/dms/image/v2/D5603AQHrGNt8S3x1pw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1680758529127?e=1727913600&v=beta&t=ESaIdanLe4LPVuTCNcy5rayNCN1bzr3n-wTAGoaYjvU",
+      image: "src/assets/mustafa.jpeg",
     },
     {
       testimonial:
@@ -209,7 +209,7 @@ import {
       name: "Maximillian Chalitsios",
       designation: "Data Engineer",
       company: "EOG",
-      image: "https://media.licdn.com/dms/image/C4E03AQF4wTTEmBWWFg/profile-displayphoto-shrink_800_800/0/1642799575832?e=1728518400&v=beta&t=j2CyuTjdv4tygZBZkeJHAJeMpjDA24QPlQ9l8lIdp3o",
+      image: "src/assets/maxch.jpeg",
     },
   ];
   
