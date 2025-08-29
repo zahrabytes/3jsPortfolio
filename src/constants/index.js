@@ -27,7 +27,8 @@ import {
   baylor,
   synth,
   uh,
-  nasa
+  nasa,
+  tmhcc
   } from "../assets";
   
   export const navLinks = [
@@ -126,11 +127,29 @@ import {
   
   const experiences = [
     {
+      title: "Cloud Engineer",
+      company_name: "Tokio Marine HCC",
+      icon: tmhcc,
+      iconBg: "#E6DEDD",
+      date: "July 2025 - Present",
+      points: [
+      ],
+    },
+    {
+      title: "SOC Analyst",
+      company_name: "Tokio Marine HCC",
+      icon: tmhcc,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - July 2025",
+      points: [
+      ],
+    },
+    {
       title: "Software Engineer Intern",
       company_name: "NASA",
       icon: nasa,
       iconBg: "#E6DEDD",
-      date: "Sept 2024 - Present",
+      date: "Sept 2024 - Dec 2024",
       points: [
       ],
     },
